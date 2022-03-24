@@ -1,0 +1,53 @@
+/* Bu araya istediğim açıklamayı yazabilirim. 
+
+İstediğim kadar uzatabilirim
+*/
+
+#menuayri{
+    display: flex;
+    justify-content: center;
+}
+
+nav.menu {
+    background-color: #4D96FF;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+nav.menu a{
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.border {
+    border: 3px solid #6BCB77;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+
+nav.menu a:hover{
+    background-color: #FF6B6B;
+}
+
+.baslik-linki{
+    color: #FF6B6B; text-decoration: none;
+}
+
+h1 {
+    color: #FF6B6B; font-family: 'Palette Mosaic', cursive; text-align: center;
+}
+
+h2 {
+    color: #FF6B6B; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;
+}
+p {
+    color:black;font: 600;font-family: Arial, Helvetica, sans-serif; text-align: center;
+}
